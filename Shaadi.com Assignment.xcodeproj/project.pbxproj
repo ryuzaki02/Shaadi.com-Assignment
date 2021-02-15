@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079295CF25C432D50055A75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079295CE25C432D50055A75A /* AppDelegate.swift */; };
+		079295D625C432D50055A75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079295D425C432D50055A75A /* Main.storyboard */; };
+		079295D825C432D70055A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079295D725C432D70055A75A /* Assets.xcassets */; };
+		079295DB25C432D70055A75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079295D925C432D70055A75A /* LaunchScreen.storyboard */; };
+		079295E625C432D70055A75A /* Shaadi_com_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079295E525C432D70055A75A /* Shaadi_com_AssignmentTests.swift */; };
+		079295F125C432D70055A75A /* Shaadi_com_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079295F025C432D70055A75A /* Shaadi_com_AssignmentUITests.swift */; };
+		0792960D25C434CE0055A75A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792960C25C434CE0055A75A /* ListViewController.swift */; };
+		0792961725C435080055A75A /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792961525C435080055A75A /* ListTableViewCell.swift */; };
+		0792961825C435080055A75A /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0792961625C435080055A75A /* ListTableViewCell.xib */; };
+		0792962125C435C50055A75A /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792962025C435C50055A75A /* ListViewModel.swift */; };
+		0792962A25C43EF60055A75A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792962925C43EF60055A75A /* UserModel.swift */; };
+		0792963225C43F260055A75A /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792963125C43F260055A75A /* CompanyModel.swift */; };
+		0792963725C43F320055A75A /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792963625C43F320055A75A /* AddressModel.swift */; };
+		0792963D25C453630055A75A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792963C25C453630055A75A /* DetailViewController.swift */; };
+		0792964725C4546A0055A75A /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792964525C4546A0055A75A /* DetailTableViewCell.swift */; };
+		0792964825C4546A0055A75A /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0792964625C4546A0055A75A /* DetailTableViewCell.xib */; };
+		07D220C325C55DB400DED6E5 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 07D220C225C55DB400DED6E5 /* Mock.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079295E225C432D70055A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079295C325C432D50055A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079295CA25C432D50055A75A;
+			remoteInfo = "Shaadi.com Assignment";
+		};
+		079295ED25C432D70055A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079295C325C432D50055A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079295CA25C432D50055A75A;
+			remoteInfo = "Shaadi.com Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079295CB25C432D50055A75A /* Shaadi.com Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shaadi.com Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079295CE25C432D50055A75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079295D525C432D50055A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079295D725C432D70055A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079295DA25C432D70055A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079295DC25C432D70055A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079295E125C432D70055A75A /* Shaadi.com AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shaadi.com AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079295E525C432D70055A75A /* Shaadi_com_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaadi_com_AssignmentTests.swift; sourceTree = "<group>"; };
+		079295E725C432D70055A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079295EC25C432D70055A75A /* Shaadi.com AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shaadi.com AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079295F025C432D70055A75A /* Shaadi_com_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaadi_com_AssignmentUITests.swift; sourceTree = "<group>"; };
+		079295F225C432D70055A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0792960C25C434CE0055A75A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0792961525C435080055A75A /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		0792961625C435080055A75A /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		0792962025C435C50055A75A /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		0792962925C43EF60055A75A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0792963125C43F260055A75A /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		0792963625C43F320055A75A /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		0792963C25C453630055A75A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0792964525C4546A0055A75A /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		0792964625C4546A0055A75A /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		07D220C225C55DB400DED6E5 /* Mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079295C825C432D50055A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295DE25C432D70055A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295E925C432D70055A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079295C225C432D50055A75A = {
+			isa = PBXGroup;
+			children = (
+				07D220C225C55DB400DED6E5 /* Mock.json */,
+				079295CD25C432D50055A75A /* Shaadi.com Assignment */,
+				079295E425C432D70055A75A /* Shaadi.com AssignmentTests */,
+				079295EF25C432D70055A75A /* Shaadi.com AssignmentUITests */,
+				079295CC25C432D50055A75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079295CC25C432D50055A75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079295CB25C432D50055A75A /* Shaadi.com Assignment.app */,
+				079295E125C432D70055A75A /* Shaadi.com AssignmentTests.xctest */,
+				079295EC25C432D70055A75A /* Shaadi.com AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079295CD25C432D50055A75A /* Shaadi.com Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				0792962825C43EE40055A75A /* Models */,
+				0792961F25C435B60055A75A /* ViewModels */,
+				0792960A25C434AC0055A75A /* ViewControllers */,
+				079295CE25C432D50055A75A /* AppDelegate.swift */,
+				079295D425C432D50055A75A /* Main.storyboard */,
+				079295D725C432D70055A75A /* Assets.xcassets */,
+				079295D925C432D70055A75A /* LaunchScreen.storyboard */,
+				079295DC25C432D70055A75A /* Info.plist */,
+			);
+			path = "Shaadi.com Assignment";
+			sourceTree = "<group>";
+		};
+		079295E425C432D70055A75A /* Shaadi.com AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				079295E525C432D70055A75A /* Shaadi_com_AssignmentTests.swift */,
+				079295E725C432D70055A75A /* Info.plist */,
+			);
+			path = "Shaadi.com AssignmentTests";
+			sourceTree = "<group>";
+		};
+		079295EF25C432D70055A75A /* Shaadi.com AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				079295F025C432D70055A75A /* Shaadi_com_AssignmentUITests.swift */,
+				079295F225C432D70055A75A /* Info.plist */,
+			);
+			path = "Shaadi.com AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		0792960A25C434AC0055A75A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0792963B25C4534C0055A75A /* DetailViewController */,
+				0792960B25C434BA0055A75A /* ListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0792960B25C434BA0055A75A /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0792961425C434F30055A75A /* Cells */,
+				0792960C25C434CE0055A75A /* ListViewController.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		0792961425C434F30055A75A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0792961525C435080055A75A /* ListTableViewCell.swift */,
+				0792961625C435080055A75A /* ListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0792961F25C435B60055A75A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0792962025C435C50055A75A /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0792962825C43EE40055A75A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0792962925C43EF60055A75A /* UserModel.swift */,
+				0792963125C43F260055A75A /* CompanyModel.swift */,
+				0792963625C43F320055A75A /* AddressModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0792963B25C4534C0055A75A /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0792964425C454540055A75A /* Cells */,
+				0792963C25C453630055A75A /* DetailViewController.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		0792964425C454540055A75A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0792964525C4546A0055A75A /* DetailTableViewCell.swift */,
+				0792964625C4546A0055A75A /* DetailTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079295CA25C432D50055A75A /* Shaadi.com Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079295F525C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com Assignment" */;
+			buildPhases = (
+				079295C725C432D50055A75A /* Sources */,
+				079295C825C432D50055A75A /* Frameworks */,
+				079295C925C432D50055A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shaadi.com Assignment";
+			productName = "Shaadi.com Assignment";
+			productReference = 079295CB25C432D50055A75A /* Shaadi.com Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079295E025C432D70055A75A /* Shaadi.com AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079295F825C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com AssignmentTests" */;
+			buildPhases = (
+				079295DD25C432D70055A75A /* Sources */,
+				079295DE25C432D70055A75A /* Frameworks */,
+				079295DF25C432D70055A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079295E325C432D70055A75A /* PBXTargetDependency */,
+			);
+			name = "Shaadi.com AssignmentTests";
+			productName = "Shaadi.com AssignmentTests";
+			productReference = 079295E125C432D70055A75A /* Shaadi.com AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		079295EB25C432D70055A75A /* Shaadi.com AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079295FB25C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com AssignmentUITests" */;
+			buildPhases = (
+				079295E825C432D70055A75A /* Sources */,
+				079295E925C432D70055A75A /* Frameworks */,
+				079295EA25C432D70055A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079295EE25C432D70055A75A /* PBXTargetDependency */,
+			);
+			name = "Shaadi.com AssignmentUITests";
+			productName = "Shaadi.com AssignmentUITests";
+			productReference = 079295EC25C432D70055A75A /* Shaadi.com AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079295C325C432D50055A75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					079295CA25C432D50055A75A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					079295E025C432D70055A75A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 079295CA25C432D50055A75A;
+					};
+					079295EB25C432D70055A75A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 079295CA25C432D50055A75A;
+					};
+				};
+			};
+			buildConfigurationList = 079295C625C432D50055A75A /* Build configuration list for PBXProject "Shaadi.com Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079295C225C432D50055A75A;
+			productRefGroup = 079295CC25C432D50055A75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079295CA25C432D50055A75A /* Shaadi.com Assignment */,
+				079295E025C432D70055A75A /* Shaadi.com AssignmentTests */,
+				079295EB25C432D70055A75A /* Shaadi.com AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079295C925C432D50055A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079295DB25C432D70055A75A /* LaunchScreen.storyboard in Resources */,
+				0792964825C4546A0055A75A /* DetailTableViewCell.xib in Resources */,
+				0792961825C435080055A75A /* ListTableViewCell.xib in Resources */,
+				07D220C325C55DB400DED6E5 /* Mock.json in Resources */,
+				079295D825C432D70055A75A /* Assets.xcassets in Resources */,
+				079295D625C432D50055A75A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295DF25C432D70055A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295EA25C432D70055A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079295C725C432D50055A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0792964725C4546A0055A75A /* DetailTableViewCell.swift in Sources */,
+				0792960D25C434CE0055A75A /* ListViewController.swift in Sources */,
+				079295CF25C432D50055A75A /* AppDelegate.swift in Sources */,
+				0792962125C435C50055A75A /* ListViewModel.swift in Sources */,
+				0792962A25C43EF60055A75A /* UserModel.swift in Sources */,
+				0792961725C435080055A75A /* ListTableViewCell.swift in Sources */,
+				0792963725C43F320055A75A /* AddressModel.swift in Sources */,
+				0792963225C43F260055A75A /* CompanyModel.swift in Sources */,
+				0792963D25C453630055A75A /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295DD25C432D70055A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079295E625C432D70055A75A /* Shaadi_com_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079295E825C432D70055A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079295F125C432D70055A75A /* Shaadi_com_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079295E325C432D70055A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079295CA25C432D50055A75A /* Shaadi.com Assignment */;
+			targetProxy = 079295E225C432D70055A75A /* PBXContainerItemProxy */;
+		};
+		079295EE25C432D70055A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079295CA25C432D50055A75A /* Shaadi.com Assignment */;
+			targetProxy = 079295ED25C432D70055A75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079295D425C432D50055A75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079295D525C432D50055A75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		079295D925C432D70055A75A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079295DA25C432D70055A75A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079295F325C432D70055A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		079295F425C432D70055A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079295F625C432D70055A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		079295F725C432D70055A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		079295F925C432D70055A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaadi.com Assignment.app/Shaadi.com Assignment";
+			};
+			name = Debug;
+		};
+		079295FA25C432D70055A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaadi.com Assignment.app/Shaadi.com Assignment";
+			};
+			name = Release;
+		};
+		079295FC25C432D70055A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shaadi.com Assignment";
+			};
+			name = Debug;
+		};
+		079295FD25C432D70055A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shaadi.com AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shaadi.Assignment.Shaadi-com-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shaadi.com Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079295C625C432D50055A75A /* Build configuration list for PBXProject "Shaadi.com Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079295F325C432D70055A75A /* Debug */,
+				079295F425C432D70055A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079295F525C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079295F625C432D70055A75A /* Debug */,
+				079295F725C432D70055A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079295F825C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079295F925C432D70055A75A /* Debug */,
+				079295FA25C432D70055A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079295FB25C432D70055A75A /* Build configuration list for PBXNativeTarget "Shaadi.com AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079295FC25C432D70055A75A /* Debug */,
+				079295FD25C432D70055A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079295C325C432D50055A75A /* Project object */;
+}
